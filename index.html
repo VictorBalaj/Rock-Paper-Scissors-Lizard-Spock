@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="RPSLS1.css">
+  <link rel="stylesheet" type="text/css" href="RPSLS2.css">
+  <script src="earlyJS.js"></script>
+  <title>R/P/S/L/S</title>
+</head>
+<!--RPSLS1.css handles the styling of the elements below-->
+<body>
+<div class="divv" id="title">ROCK - PAPER - SCISSORS - LIZARD - SPOCK</div>
+<div class="scr" id="score">
+  <div class="WLT" id="wins">Wins: 0  </div>
+  <div class="WLT" id="loss">Losses: 0  </div>
+  <div class="WLT" id="ties">Ties: 0  </div>
+</div>
+<div id="reset"><button id="rsBut" onclick="restart()">Restart?</button></div>
+<!--RPSLS2.css handles the styling of the elements below-->
+<div id="mainArea">
+  <div id="compScr">
+    <img id="computerLogo" src="fancy pictures/neutral.png">
+    <p id="Cmove"> &nbsp;&nbsp;&nbsp;&nbsp;</p>
+    </div>
+  <div id="screen">
+    <div class="divv" id="fText">Chose your</div>
+    <div class="divv" id="sText">M O V E</div>
+  </div>
+</div>
+<div class="divv">
+  <button class="moves" onclick="compM();rockM();">
+    <img src="fancy pictures/ROCK.png" class="guys"></button>
+  <button class="moves" onclick="compM();paperM();">
+    <img src="fancy pictures/PAPER.png" class="guys"></button>
+  <button class="moves" onclick="compM();scissorsM();">
+    <img src="fancy pictures/SCISSORS.png" class="guys"></button>
+  <button class="moves" onclick="compM();lizardM();">
+    <img src="fancy pictures/LIZARD.png" class="guys"></button>
+  <button class="moves" onclick="compM();spockM();">
+    <img src="fancy pictures/SPOCK.png" class="guys"></button>
+</div>
+<script src="normalJS.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(135deg, rgb(53, 5, 67), #0b3c66);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.divv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#title {
+  color: rgb(186, 186, 156);
+  font-size: 2.5vw;
+  padding-top: 10px;
+  padding-bottom: 35px;
+}
+.WLT {
+  padding-left: 3.5vw;
+  padding-right: 3.5vw;
+}
+.scr {
+  display: flex;
+  justify-content: center;
+  color: beige;
+  padding-bottom: 10px;
+  font-size: 2vw;
+  }
+#reset{
+  text-align: right;
+  margin-right: 4vw;
+}
+#rsBut{
+  background-color: rgb(136, 34, 204);
+  color:  rgb(0, 0, 0);
+  width: 5.5vw;
+  height: auto;
+  font-size: 1.2vw;
+  border: none;
+  border-radius: 15%;
+  justify-content: center;
+}
+#rsBut:hover{
+  background-color: rgb(152, 43, 224);
+}
+#rsBut:active{
+  background-color: rgb(98, 24, 167);
+}
+
+

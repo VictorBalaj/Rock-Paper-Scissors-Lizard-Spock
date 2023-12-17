@@ -1,0 +1,55 @@
+#mainArea{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.guys{
+height: auto;
+width: 14vw;
+}
+
+#screen {
+  display: flex;
+  flex-direction: column;
+  color: rgb(83, 192, 243);
+  padding-top: 3.5vw;
+  padding-bottom: 3.5vw;
+  width: 42vw;
+  height: 10vw;
+}
+#compScr{
+  display: flex;
+  flex-direction: column;
+}
+#computerLogo{
+  transform: scalex(-1);
+  padding-left: 1vw;
+  height: 12vw;
+  width: auto;
+}
+#Cmove{
+  font-size: 2vw;
+  color: rgb(13, 221, 151);
+}
+#fText {
+  font-size: 3vw;
+}
+#sText {
+  font-size: 6vw;
+}
+
+.moves {
+  margin-left: 0.75vw;
+  margin-right: 0.75vw;
+  padding: 0px;
+  background-color: transparent;
+  border-radius: 75%;
+  border: 0;
+}
+.moves:hover{
+background-color: rgba(113, 234, 255, 0.156);
+}
+.moves:active{
+background-color: rgba(0, 217, 255, 0.156);  
+}
